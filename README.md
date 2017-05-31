@@ -12,6 +12,9 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
      **`Install-Script Install-VSCode -Scope CurrentUser; Install-VSCode.ps1`**
 
 ## Why VSCode? When I have ISE!
+
+Powershell
+
 ### Features
 1. Syntax highlighting
 2. Intellisense
@@ -42,6 +45,13 @@ You can add rich editing, build and more features using the extensions to inhanc
 
 - Language Support - **Powershell, C#, Python, Perl, PHP, HTML** etc.
 - GitLens
-- 
+- Markdown
+- Stack Overflow/ Google search and much more
 
-
+### Microsoft is heavily investing on this
+- No more active development on Powershell ISE
+- Infact Powershell team at microsoft active contributors to Powershell Extension
+    * [@daviwil](https://twitter.com/daviwil)
+- Very fast development, effective Monitoring of issues and quick bugfixes
+    * [Report Issues](https://github.com/PowerShell/vscode-powershell/issues)
+    * `Start-Process https://twitter.com/jsnover/status/867697579504611328`
