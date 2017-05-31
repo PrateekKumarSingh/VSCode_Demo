@@ -6,6 +6,6 @@ This extension provides rich PowerShell language support for Visual Studio Code.
 
 - [Instructions to Install VScode and powershell Extension](https://github.com/PowerShell/PowerShell/blob/master/docs/learning-powershell/using-vscode.md)
 
-- One-Liner
+- One-Liner to download VScode and  install Powershell Extension
 
      Install-Script Install-VSCode -Scope CurrentUser; Install-VSCode.ps1
