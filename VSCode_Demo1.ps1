@@ -6,8 +6,8 @@ foreach($item in $Services){
 
 # Intellisense and Code Completion - get-*
 Get-Service b
-5
-get-process armsvc
+get-
+[System.Math]::PI
 
 #Snippets
 #Go to definition of Functions, Cmdlets & Variables
