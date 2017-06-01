@@ -11,12 +11,12 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
 
      **`Install-Script Install-VSCode -Scope CurrentUser; Install-VSCode.ps1`**
 
-## Why VSCode? When I have ISE!
+## Why to use VSCode? When I have ISE!
 *   Open source runs on Linux, Mac and Windows
 *   Powershell extension for Visual studio code has been downloaded by 800,000+ times
 *   Version 1.0 has been released in May and its already very popular
 *   Powershell is not only for small tasks and quick automation fixes,
-    and IDE makes it easy to develop complex and detailed automation projects
+    and IDE makes it easy to develop complex automation projects
 
 ### A. Features
 1. Syntax highlighting
