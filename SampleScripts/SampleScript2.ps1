@@ -27,7 +27,7 @@ Cleanup -Verbose -DataInGB
 
 .EXAMPLE
 
-Cleanup -Interactive -Exclude '*.log','*.xlsx' -EmailTo 'prateekkumar.singh@ihsmarkit.com','jason.ross@ihsmarkit.com' -Verbose
+Cleanup -Interactive -Exclude '*.log','*.xlsx' -EmailTo 'prateek@xyz.com.com','Rohit@xyz.com.com' -Verbose
 
 .NOTES
 Author : Prateek Singh
@@ -57,7 +57,7 @@ Function Get-SpaceUtlization
         {
             $FoldersToCheck =   @(
                                     'C:\Windows\Winsxs',
-                                    "C:\users\prateekkumar.singh\AppData\Local\Microsoft\Windows\Temporary Internet Files"
+                                    "C:\users\prateek\AppData\Local\Microsoft\Windows\Temporary Internet Files"
                                     'C:\TestFolder1',
                                     'C:\TestFolder2',
                                     'C:\TestFolder3',
@@ -143,7 +143,7 @@ Function Get-SpaceUtlization
 
         If($EmailTo)
         {
-            Send-MailMessage    -SmtpServer 'ussmtp.markit.partners' -From "$($env:COMPUTERNAME)_DriveCleanup@IHSMarkit.com" `
+            Send-MailMessage    -SmtpServer 'smtp.server' -From "$($env:COMPUTERNAME)_DriveCleanup@xyz.com.com" `
                                 -Attachments $LogPath `
                                 -To $EmailTo `
                                 -Subject "$(($env:COMPUTERNAME).toupper()) | $(($DriveAlphabet).toupper()) Drive cleanup Log | Free % = $($After.PercentageFree)"

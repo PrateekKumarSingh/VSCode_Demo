@@ -10,6 +10,8 @@ get-process
 [System.Math]::PI
 
 #Run selection [F8]
+Get-Service BITS
+Get-Process spoolsv
 
 # Expand aliases [Shift+Alt+E]
 gsv
@@ -58,10 +60,6 @@ $Ping.Send($Computername,$PingTimeOut,$buffer,$options)
 $Ping.Dispose()
 }
 
-# Global Search [Ctrl+Shift+F]
-
-# Replace Search [Ctrl+Shift+F]
-
 # Dynamic help
 function Sum ($param1, $param2) {
     $param1+$param2
@@ -70,7 +68,5 @@ function Sum ($param1, $param2) {
 # Powershell Script Analyzer
 ipmo
 $var=2
-
-# Version Control integration
 
 #Command Palette     **[Ctrl+Shift+P]** and more...
