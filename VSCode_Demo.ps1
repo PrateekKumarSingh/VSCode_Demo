@@ -70,3 +70,8 @@ ipmo
 $var=2
 
 #Command Palette     **[Ctrl+Shift+P]** and more...
+
+
+# Third Party extensions
+
+
