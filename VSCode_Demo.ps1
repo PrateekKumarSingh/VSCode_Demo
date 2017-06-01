@@ -60,18 +60,30 @@ $Ping.Send($Computername,$PingTimeOut,$buffer,$options)
 $Ping.Dispose()
 }
 
+
 # Dynamic help
 function Sum ($param1, $param2) {
     $param1+$param2
 }
 
-# Powershell Script Analyzer
-ipmo
-$var=2
+# 3 Special Modules are available in VSCode by default
+    Get-Module -ListAvailable | Where-Object {$_.path -like "*ms-vscode.powershell*"}
 
-#Command Palette     **[Ctrl+Shift+P]** and more...
+    # 1. Plaster Module - template based powershell project creation
+    Invoke-Plaster
+    
+    # 2. Powershell Editor services Module - To automate/enhance Vscode Editor
+    $psEditor.GetEditorContext().currentfile.tokens.where({$_.kind -eq 'variable'})| Select-Object name -Unique
 
+    # 3. Powershell Script Analyzer - Enforces Powershell best practices.
+    ipmo # Select Alias and a Light Bulb appears in VScode
+    $var=2
+    Get-ScriptAnalyzerRule
+    Get-ScriptAnalyzerRule | Where-Object {$_.Rulename -like "*UseDeclaredVars*" -or $_.Rulename -like "*avoidusing*alias*"}
+
+# Command Palette     **[Ctrl+Shift+P]** and more...
 
 # Third Party extensions
+    
 
 
