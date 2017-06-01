@@ -13,7 +13,10 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
 
 ## Why VSCode? When I have ISE!
 
-Powershell
+*   Powershell extension for Visula studio code has been downloaded by 800,000+ times
+*   Version 1.0 has been released in May
+*   Powershell is not only for small tasks and quick automation fixes
+*   IDE helps in development of complex and detailed automation projects
 
 ### Features
 1. Syntax highlighting
