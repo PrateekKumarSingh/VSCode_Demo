@@ -27,6 +27,8 @@ Invoke-telnet
 Test-Port
 Get-WmiObject
 
+# Command Palette     **[Ctrl+Shift+P]**
+
 # Launch Online help  **[Ctrl+F1]**
 Get-Acl
     
@@ -81,7 +83,6 @@ function Sum ($param1, $param2) {
     Get-ScriptAnalyzerRule
     Get-ScriptAnalyzerRule | Where-Object {$_.Rulename -like "*UseDeclaredVars*" -or $_.Rulename -like "*avoidusing*alias*"}
 
-# Command Palette     **[Ctrl+Shift+P]** and more...
 
 # Third Party extensions
     
