@@ -62,7 +62,6 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
 
 ## What Powershell-VSCode ext can't do but ISE can? I mean as of now ;)
 - Remote runspace tabs
-- Remote debugging
 - Language aware code folding
 
 ## VSCode-Powershell Learning Resources
