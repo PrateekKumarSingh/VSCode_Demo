@@ -40,8 +40,7 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
     * Very Keyboard Friendly
     * Below is a oneliner to download **VSCode cheat sheet for Keyboard shortcuts on Windows**
     
-    **`(iwr "https://github.com/PrateekKumarSingh/CheatSheets").Links | ?{$_.title -Like "*VSCODE*windows*"} | %{iwr "http://github.com$($_.href)?
-raw=true" -OutFile $_.title -Verbose}`**
+    **`(iwr "https://github.com/PrateekKumarSingh/CheatSheets").Links | ?{$_.title -Like "*VSCODE*windows*"} | %{iwr "http://github.com$($_.href)?raw=true" -OutFile $_.title -Verbose}`**
 
 ### C. Extensibility
 -   Doesn't matter what language you are using like, Powershell, C#, Java, Python
