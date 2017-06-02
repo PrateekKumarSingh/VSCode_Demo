@@ -12,11 +12,11 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
      **`Install-Script Install-VSCode -Scope CurrentUser; Install-VSCode.ps1`**
 
 ## Why to use VSCode? When I have ISE!
-*   Open source runs on Linux, Mac and Windows
+*   Open source! runs on Linux, Mac and Windows. Same Scripting experience on all OS in a Hybrid environment
 *   Powershell extension for Visual studio code has been downloaded by 800,000+ times
 *   Version 1.0 has been released in May and its already very popular
 *   Powershell is not only for small tasks and quick automation fixes,
-    and IDE makes it easy to develop complex automation projects
+    and IDE makes it easy to develop complex automation projects for On Prem and Cloud technologies
 
 ### A. Features
 1. Syntax highlighting
@@ -51,10 +51,10 @@ Now you can write and debug PowerShell scripts using the excellent IDE-like inte
     * MSSQL, Docker, Git History, Markdown
     * Stack Overflow/ Google search and much more
 
-### D. Microsoft is heavily investing on this
-- No more active development on Powershell ISE
+### D. Microsoft is heavily investing on VSCode
+- No more active development on Powershell ISE in recent years.
 - Infact Powershell team at Powershell team at Microsoft actively contributes to Powershell Extension
-    * [@daviwil](https://twitter.com/daviwil)
+    * [@daviwil](https://twitter.com/daviwil) - Maintainer of VSCode-Powershell Extension
 - and it would be no wonder if VSCode starts getting shipped with Windows OS few years down the line    
 - Very fast development, Issues reported are getting tracked and there are quick bugfixes
     * Any one can [Report Issues](https://github.com/PowerShell/vscode-powershell/issues) here
